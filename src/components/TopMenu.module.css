@@ -1,0 +1,35 @@
+.menucontainer {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.itemcontainer {
+    width: 150px;
+    display: grid;
+    place-items: center;
+    font-size: 23px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: rgb(113, 113, 143);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.logoimg {
+    height: 100%;
+    width: auto;
+    padding: 10px;
+}
